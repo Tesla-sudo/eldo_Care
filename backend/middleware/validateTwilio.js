@@ -1,10 +1,6 @@
 const twilio = require('twilio');
 
 module.exports = function validateTwilio(req, res, next) {
-  if (process.env.SKIP_TWILIO_VALIDATION === 'true') {
-    return next();
-  }
-
   const signature = req.headers['x-twilio-signature'];
   const url = process.env.PUBLIC_BASE_URL + req.originalUrl;
 
@@ -12,10 +8,11 @@ module.exports = function validateTwilio(req, res, next) {
     process.env.TWILIO_AUTH_TOKEN,
     signature,
     url,
-    req.body
+    req.body // fine for now; rawBody optional upgrade
   );
 
   if (!isValid) {
+    console.error('Twilio signature validation failed');
     return res.status(403).send('Invalid Twilio signature');
   }
 

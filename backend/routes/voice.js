@@ -1,6 +1,8 @@
 const express = require('express');
 const twilio = require('twilio');
 const CallSession = require('../models/CallSession');
+const validateTwilio = require('../middleware/validateTwilio');
+
 
 const router = express.Router();
 const VoiceResponse = twilio.twiml.VoiceResponse;
