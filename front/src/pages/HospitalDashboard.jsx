@@ -71,7 +71,7 @@ export default function HospitalDashboard() {
     }}>
       <h1 style={{
         color: '#DC2626', /* Red for main heading */
-        borderBottom: '3px solid #228B22', /* Green underline */
+        borderBottom: '3px solid #228B22', 
         paddingBottom: '10px',
         marginBottom: '30px'
       }}>
@@ -79,10 +79,10 @@ export default function HospitalDashboard() {
       </h1>
       
       <div style={{
-        backgroundColor: '#FFFFFF', /* White card background */
+        backgroundColor: '#FFFFFF', 
         padding: '25px',
         borderRadius: '12px',
-        boxShadow: '0 4px 12px rgba(34, 139, 34, 0.1)', /* Green tint shadow */
+        boxShadow: '0 4px 12px rgba(34, 139, 34, 0.1)', 
         marginBottom: '30px',
         border: '1px solid #E5E7EB'
       }}>
@@ -90,10 +90,10 @@ export default function HospitalDashboard() {
       </div>
       
       <div style={{
-        backgroundColor: '#FFFFFF', /* White card background */
+        backgroundColor: '#FFFFFF',
         padding: '25px',
         borderRadius: '12px',
-        boxShadow: '0 4px 12px rgba(34, 139, 34, 0.1)', /* Green tint shadow */
+        boxShadow: '0 4px 12px rgba(34, 139, 34, 0.1)', 
         border: '1px solid #E5E7EB'
       }}>
         <div style={{
