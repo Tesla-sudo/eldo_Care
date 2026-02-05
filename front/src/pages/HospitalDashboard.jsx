@@ -11,7 +11,7 @@ export default function HospitalDashboard() {
     async function fetchLeads() {
       try {
         const res = await hospitalApi.get('/insights/hospital/leads');
-        setLeads(res.data.map(l => ({ ...l, status: 'new' }))); // default status
+        setLeads(res.data.map(l => ({ ...l, status: 'new' }))); 
       } catch (err) {
         console.error('Failed to load leads', err);
       } finally {
@@ -26,14 +26,14 @@ export default function HospitalDashboard() {
     <div style={{ 
       textAlign: 'center', 
       padding: '60px 20px',
-      backgroundColor: '#FFFFFF' /* White background */
+      backgroundColor: '#FFFFFF' 
     }}>
       <div style={{
         display: 'inline-block',
         padding: '20px 40px',
-        backgroundColor: '#F0F9F0', /* Light green background */
+        backgroundColor: '#F0F9F0', 
         borderRadius: '12px',
-        border: '2px solid #228B22' /* Green border */
+        border: '2px solid #228B22' 
       }}>
         <p style={{ 
           color: '#228B22', 
