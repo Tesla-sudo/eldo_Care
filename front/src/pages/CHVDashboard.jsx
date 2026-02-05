@@ -28,7 +28,7 @@ export default function CHVDashboard() {
         </div>
         
         <h1 style={{
-          color: "#228B22", /* Green for main heading */
+          color: "#228B22", 
           marginBottom: "15px",
           fontSize: "32px"
         }}>
