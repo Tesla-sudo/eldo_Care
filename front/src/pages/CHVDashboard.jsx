@@ -138,7 +138,7 @@ export default function CHVDashboard() {
           padding: "25px",
           backgroundColor: "#F8F9FA",
           borderRadius: "10px",
-          borderLeft: "4px solid #DC2626" /* Red accent border */
+          borderLeft: "4px solid #DC2626" 
         }}>
           <h3 style={{
             color: "#DC2626",
