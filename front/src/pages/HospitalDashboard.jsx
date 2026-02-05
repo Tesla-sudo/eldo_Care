@@ -102,7 +102,7 @@ export default function HospitalDashboard() {
           alignItems: 'center',
           marginBottom: '20px',
           paddingBottom: '15px',
-          borderBottom: '2px solid #F0F9F0' /* Light green divider */
+          borderBottom: '2px solid #F0F9F0' 
         }}>
           <h2 style={{
             color: '#228B22', 
