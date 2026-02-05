@@ -62,7 +62,7 @@ export default function Navbar() {
           onMouseEnter={(e) => {
             if (!e.target.className.includes("active")) {
               e.target.style.backgroundColor = "#FEF2F2"; /* Light red hover */
-              e.target.style.color = "#DC2626"; /* Red text on hover */
+              e.target.style.color = "#DC2626"; 
             }
           }}
           onMouseLeave={(e) => {
