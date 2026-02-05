@@ -1,0 +1,1 @@
+EldoCare is a voice-based health triage platform connecting communities to emergency care in minutes. The system enables rapid response through automated calling systems, real-time case management and multi-role dashboards for different healthcare stakeholders.
