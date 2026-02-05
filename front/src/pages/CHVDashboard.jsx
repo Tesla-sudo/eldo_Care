@@ -84,7 +84,7 @@ export default function CHVDashboard() {
             padding: "14px 28px",
             backgroundColor: "#FFFFFF", /* White button */
             color: "#DC2626", /* Red text */
-            border: "2px solid #DC2626", /* Red border */
+            border: "2px solid #DC2626", 
             borderRadius: "8px",
             fontSize: "16px",
             fontWeight: "600",
