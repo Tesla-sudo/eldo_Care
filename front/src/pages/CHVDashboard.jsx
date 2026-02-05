@@ -107,7 +107,7 @@ export default function CHVDashboard() {
           
           <button style={{
             padding: "14px 28px",
-            backgroundColor: "#DC2626", /* Red button */
+            backgroundColor: "#DC2626", 
             color: "#FFFFFF", /* White text */
             border: "none",
             borderRadius: "8px",
@@ -120,7 +120,7 @@ export default function CHVDashboard() {
             gap: "8px"
           }}
           onMouseEnter={(e) => {
-            e.target.style.backgroundColor = "#B91C1C"; /* Darker red */
+            e.target.style.backgroundColor = "#B91C1C"; 
             e.target.style.transform = "translateY(-2px)";
             e.target.style.boxShadow = "0 4px 12px rgba(220, 38, 38, 0.3)";
           }}
