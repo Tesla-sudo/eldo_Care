@@ -56,7 +56,7 @@ export default function CHVDashboard() {
           <button style={{
             padding: "14px 28px",
             backgroundColor: "#228B22", /* Green button */
-            color: "#FFFFFF", /* White text */
+            color: "#FFFFFF", 
             border: "none",
             borderRadius: "8px",
             fontSize: "16px",
