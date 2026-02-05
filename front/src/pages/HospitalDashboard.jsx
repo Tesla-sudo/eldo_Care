@@ -105,14 +105,14 @@ export default function HospitalDashboard() {
           borderBottom: '2px solid #F0F9F0' /* Light green divider */
         }}>
           <h2 style={{
-            color: '#228B22', /* Green for section heading */
+            color: '#228B22', 
             margin: '0'
           }}>
             Patient Leads
           </h2>
           <span style={{
-            backgroundColor: '#FEF2F2', /* Light red background */
-            color: '#DC2626', /* Red text */
+            backgroundColor: '#FEF2F2',
+            color: '#DC2626', 
             padding: '6px 12px',
             borderRadius: '20px',
             fontSize: '14px',
