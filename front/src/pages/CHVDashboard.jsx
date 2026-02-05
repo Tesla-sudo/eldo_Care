@@ -95,7 +95,7 @@ export default function CHVDashboard() {
             gap: "8px"
           }}
           onMouseEnter={(e) => {
-            e.target.style.backgroundColor = "#FEF2F2"; /* Light red background */
+            e.target.style.backgroundColor = "#FEF2F2";
             e.target.style.transform = "translateY(-2px)";
           }}
           onMouseLeave={(e) => {
