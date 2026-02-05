@@ -68,7 +68,7 @@ export default function Navbar() {
           onMouseLeave={(e) => {
             if (!e.target.className.includes("active")) {
               e.target.style.backgroundColor = "transparent";
-              e.target.style.color = "#228B22"; /* Back to green */
+              e.target.style.color = "#228B22"; 
             }
           }}
         >
