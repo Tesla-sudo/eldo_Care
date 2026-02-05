@@ -159,7 +159,7 @@ export default function CHVDashboard() {
               <div style={{
                 fontSize: "28px",
                 fontWeight: "bold",
-                color: "#228B22" /* Green for numbers */
+                color: "#228B22" 
               }}>12</div>
               <div style={{ color: "#666666", fontSize: "14px" }}>Cases Today</div>
             </div>
