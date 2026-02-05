@@ -38,7 +38,7 @@ export default function Navbar() {
         alignItems: "center"
       }}>
         <span style={{
-          backgroundColor: "#228B22", /* Green circle */
+          backgroundColor: "#228B22", 
           color: "#FFFFFF", /* White text */
           width: "32px",
           height: "32px",
