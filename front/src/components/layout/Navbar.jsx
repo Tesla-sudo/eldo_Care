@@ -4,7 +4,7 @@ const linkStyle = {
   marginRight: 20,
   textDecoration: "none",
   fontWeight: "bold",
-  color: "#228B22", /* Green for normal state */
+  color: "#228B22",
   padding: "8px 12px",
   borderRadius: "6px",
   transition: "all 0.3s ease"
