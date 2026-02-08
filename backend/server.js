@@ -1,3 +1,4 @@
+// backend/server.js (no major changes, but ensure models are imported if needed)
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
@@ -7,7 +8,7 @@ dotenv.config();
 const voiceRoutes = require('./routes/voice');
 const apiRoutes = require('./routes/api');
 const billingRoutes = require("./routes/billing");
-
+const chvRoutes = require('./routes/chv');
 
 const app = express();
 
@@ -27,7 +28,7 @@ mongoose.connect(process.env.MONGODB_URI)
 app.use('/voice', voiceRoutes);
 app.use('/api', apiRoutes);
 app.use("/api/billing", billingRoutes);
-app.use("/api/chv", require("./routes/chv"));
+app.use("/api/chv", chvRoutes);
 app.use("/uploads", express.static("uploads"));
 
 app.get('/health', (req, res) => {
