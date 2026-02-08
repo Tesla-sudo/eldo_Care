@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const linkStyle = {
   marginRight: 20,
@@ -18,6 +18,8 @@ const activeLinkStyle = {
 };
 
 export default function Navbar() {
+  const navigate = useNavigate();
+
   return (
     <nav
       style={{
@@ -30,13 +32,30 @@ export default function Navbar() {
         boxShadow: "0 2px 10px rgba(34, 139, 34, 0.1)" 
       }}
     >
-      <span style={{ 
-        fontWeight: "bold", 
-        fontSize: 22,
-        color: "#DC2626", 
-        display: "flex",
-        alignItems: "center"
-      }}>
+      <button
+        onClick={() => navigate("/")}
+        style={{
+          fontWeight: "bold", 
+          fontSize: 22,
+          color: "#DC2626", 
+          display: "flex",
+          alignItems: "center",
+          background: "none",
+          border: "none",
+          cursor: "pointer",
+          padding: "8px 12px",
+          borderRadius: "6px",
+          transition: "all 0.3s ease"
+        }}
+        onMouseEnter={(e) => {
+          e.target.style.backgroundColor = "#FEF2F2";
+          e.target.style.transform = "translateY(-2px)";
+        }}
+        onMouseLeave={(e) => {
+          e.target.style.backgroundColor = "transparent";
+          e.target.style.transform = "translateY(0)";
+        }}
+      >
         <span style={{
           backgroundColor: "#228B22", 
           color: "#FFFFFF", 
@@ -50,7 +69,7 @@ export default function Navbar() {
           fontSize: "16px"
         }}>⚕️</span>
         EldoCare
-      </span>
+      </button>
 
       <div style={{ display: "flex", alignItems: "center" }}>
         <NavLink 
