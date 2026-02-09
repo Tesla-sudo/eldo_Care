@@ -10,7 +10,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@google/genai": "^1.39.0",
     "@google/generative-ai": "^0.24.1",
@@ -22,5 +21,6 @@
     "multer": "^2.0.2",
     "openai": "^6.17.0",
     "twilio": "^5.12.0"
-  }
+  },
+  "description": ""
 }
