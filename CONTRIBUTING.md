@@ -1,5 +1,3 @@
-
-````markdown
 #  Contributing to EldoCare
 
 Thank you for your interest in contributing to **EldoCare**!  
