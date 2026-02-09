@@ -265,12 +265,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
 ```
 
----
 
-If you want, I can:
-- Strip this down further for **hackathon judging**
-- Add **badges** (license, build, contributors)
-- Convert to a **one-page README**
-- Align it with **GitHub best practices**
-
-```
