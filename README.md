@@ -263,6 +263,4 @@ Copyright (c) 2024 EldoCare Team
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
-```
-
 
